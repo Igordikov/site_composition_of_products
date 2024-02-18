@@ -1,0 +1,348 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2d3246;
+  background-color: #fbf8f3;
+}
+
+ol,
+ul,
+a {
+  list-style-type: none;
+  text-decoration: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+button {
+  border: none;
+}
+
+.container {
+  width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* HEADER START */
+
+header {
+  background-color: #ffb82e;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-menu-left {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #2d3246;
+  display: flex;
+  padding: 24px 0 0 210px;
+  gap: 32px;
+}
+.nav-menu-right {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #2d3246;
+  display: flex;
+  margin-left: 186px;
+  padding-top: 24px;
+  gap: 32px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.header-title {
+  margin-top: 162px;
+  width: 385px;
+  margin-bottom: 29px;
+
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.35;
+  letter-spacing: 0em;
+  color: #2d3246;
+}
+
+.container-padding {
+  padding-left: 197px;
+}
+
+.header-button {
+  background-color: #2d3246;
+  color: #fffefb;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 208px;
+  height: 54px;
+  border-radius: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.header-img {
+  width: 665px;
+}
+
+/* MAIN START */
+
+/* FIRST SECTION */
+
+.nutrition-program-title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.35;
+  letter-spacing: 0em;
+  margin: 0 auto;
+  color: #2d3246;
+  width: 764px;
+  padding-top: 83px;
+  margin-bottom: 55px;
+}
+
+.list-link-nutrition-program {
+  display: flex;
+  gap: 18px;
+  padding-bottom: 80px;
+  justify-content: center;
+}
+
+.rectangle {
+  width: 128px;
+  height: 24px;
+}
+
+/* SECOND SECTION */
+
+.second-section-container {
+  display: flex;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.text-of-image {
+  position: absolute;
+  padding-top: 246px;
+
+  width: 232px;
+  font-weight: 400;
+  font-size: 53px;
+  line-height: 1.4;
+  text-align: center;
+  color: #fff;
+}
+
+.description-second-section {
+  width: 396px;
+  margin-left: 120px;
+}
+
+.title-second-section {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.3;
+  color: #2d3246;
+  padding-top: 214px;
+  margin-bottom: 14px;
+}
+
+.text-second-section {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  color: #2d3246;
+}
+
+/* THIRD SECTION */
+
+.institution-list {
+  display: flex;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.3;
+  text-align: center;
+  color: #2d3246;
+}
+
+.list-size {
+  width: calc(100% / 4);
+  padding-top: 150px;
+  padding-bottom: 80px;
+}
+
+.stanford-medicine {
+  background-color: #c3d2a8;
+}
+
+.harvard-school-health {
+  background-color: #b9d9d0;
+}
+
+.massachusetts-meneral-mospital {
+  background-color: #f4b4b5;
+}
+
+.kings-college-london {
+  background-color: #f7ad77;
+}
+
+/* FOURTH-SECTION */
+
+.height-fourth-section {
+  min-height: 533px;
+}
+
+.title-fourth-section {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #2d3246;
+  padding-top: 118px;
+  width: 719px;
+  margin: 0 auto 77px;
+}
+
+.button-fourth-section {
+  border-radius: 40px;
+  width: 312px;
+  height: 54px;
+  background-color: #2d3246;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fffefb;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+/* FIFTH SECTION */
+
+.title-section-fifth {
+  font-weight: 400;
+  font-size: 77px;
+  line-height: 1.2987;
+  text-align: center;
+  color: #000;
+  width: 427px;
+  margin: 0 auto;
+  padding: 255px 0;
+}
+
+.bg-color-fiv-sect {
+  background-color: white;
+}
+
+/* SIXTH SECTION */
+
+.sixth-section-backgraund {
+  background-color:  #f59650;
+}
+
+.flex-container {
+  display: flex;
+  min-height: 532px;
+
+}
+
+.title-and-button {
+  width: 345px;
+ margin-left: 120px;
+ 
+}
+
+.title-sixth-section {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 1.25;
+  color: #2d3246;
+  margin-bottom: 39px;
+  padding-top: 160px;
+}
+
+.button-sixth-section {
+  background-color: #2d3246;
+  min-width: 253px;
+  padding: 16px 48px;
+  border: none;
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #fffefb;
+border-radius: 40px;
+cursor: pointer;
+}
+
+.list-container {
+  padding-top: 120px;
+  width: 500px;
+  margin-left: 140px;
+  }
+
+.list-link-one {
+  
+  font-weight: 400;
+font-size: 20px;
+line-height: 1.3;
+color: #2d3246;
+  padding-bottom: 41px;
+  border-bottom: solid 1px   #2d3246;;
+}
+
+.list-link-two {
+  font-weight: 400;
+font-size: 20px;
+line-height: 1.3;
+color: #2d3246;
+  padding-bottom: 41px;
+  border-bottom: solid 1px   #2d3246;;
+padding-top: 39px;
+}
+
+.list-link-three {
+  font-weight: 400;
+font-size: 20px;
+line-height: 1.3;
+color: #2d3246;
+  padding-bottom: 41px;
+ 
+padding-top: 39px;
+}
+
+
+
+
+.arrow {
+  margin-left: 88px;
+}
+
+
+.link-flex {
+  display: flex;
+}
