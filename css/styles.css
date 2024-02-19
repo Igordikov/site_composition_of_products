@@ -26,9 +26,32 @@ p {
 img {
   display: block;
 }
-button {
+
+/* BUTTONS */
+
+.button-dark {
   border: none;
-}
+  cursor: pointer;
+  border-radius: 40px;
+  font-weight: 400;
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #2d3246;
+  color: #fffefb;
+  }
+
+.button-yellow {
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+  font-weight: 400;
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color:  #fac828;
+  color: #fffefb;
+  }
 
 .container {
   width: 1280px;
@@ -82,24 +105,14 @@ header {
   color: #2d3246;
 }
 
+.btn-one {
+  padding: 16px 60px;
+}
+
 .container-padding {
   padding-left: 197px;
 }
 
-.header-button {
-  background-color: #2d3246;
-  color: #fffefb;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  width: 208px;
-  height: 54px;
-  border-radius: 40px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  cursor: pointer;
-}
 
 .header-img {
   width: 665px;
@@ -227,19 +240,14 @@ header {
   margin: 0 auto 77px;
 }
 
-.button-fourth-section {
-  border-radius: 40px;
+.btn-second {
+  padding: 16px 48px;
   width: 312px;
-  height: 54px;
-  background-color: #2d3246;
-  display: block;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #fffefb;
-  cursor: pointer;
-  margin: 0 auto;
+height: 54px;
+margin: 0 auto;
 }
+
+
 
 /* FIFTH SECTION */
 
@@ -264,7 +272,7 @@ header {
   background-color:  #f59650;
 }
 
-.flex-container {
+.flex-container-sixth {
   display: flex;
   min-height: 532px;
 
@@ -285,19 +293,11 @@ header {
   padding-top: 160px;
 }
 
-.button-sixth-section {
-  background-color: #2d3246;
-  min-width: 253px;
-  padding: 16px 48px;
-  border: none;
-
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: #fffefb;
-border-radius: 40px;
-cursor: pointer;
+.btn-third {
+  width: 253px;
+height: 54px;
 }
+
 
 .list-container {
   padding-top: 120px;
@@ -346,3 +346,65 @@ padding-top: 39px;
 .link-flex {
   display: flex;
 }
+
+
+/* SEVENTH SECTION */
+
+.flex-container-seventh {
+  display: flex;
+  min-height: 640px;
+}
+
+.container-seven-section {
+  width: 381px;
+  margin-left: 120px;
+  margin-right: 100px;
+}
+
+.title-seventh {
+font-weight: 400;
+font-size: 20px;
+line-height: 1.3;
+color: #4b526e;
+padding-top: 97px;
+margin-bottom: 20px;
+}
+
+.title-recommendation {
+font-weight: 400;
+font-size: 32px;
+line-height: 1.5;
+color: #2d3246;
+
+}
+
+.description-seventh {
+font-weight: 400;
+font-size: 20px;
+line-height: 1.3;
+color: #2d3246;
+width: 396px;
+margin-top: 8px;
+margin-bottom: 40px;
+}
+
+
+.btn-fourth {
+  width: 228px;
+  height: 54px;
+  color: #2d3246;
+}
+
+
+.img-seven-section {
+  
+  display: block;
+}
+
+
+
+
+
+
+
+
