@@ -39,6 +39,7 @@ img {
   line-height: 1.5;
   background-color: #2d3246;
   color: #fffefb;
+  padding: 16px 48px;
   }
 
 .button-yellow {
@@ -51,6 +52,7 @@ img {
   line-height: 1.5;
   background-color:  #fac828;
   color: #2d3246;
+  padding: 16px 46px;
   }
 
 .container {
@@ -111,6 +113,9 @@ header {
 
 .btn-one {
   padding: 16px 60px;
+  min-width: 208px;
+  min-height: 54px
+  ;
 }
 
 .container-padding {
@@ -245,9 +250,8 @@ header {
 }
 
 .btn-second {
-  padding: 16px 48px;
-  width: 312px;
-height: 54px;
+  min-width: 312px;
+min-height: 54px;
 margin: 0 auto;
 }
 
@@ -298,8 +302,8 @@ margin: 0 auto;
 }
 
 .btn-third {
-  width: 253px;
-height: 54px;
+  min-width: 253px;
+min-height: 54px;
 }
 
 
@@ -394,8 +398,9 @@ margin-bottom: 40px;
 
 
 .btn-fourth {
-  width: 228px;
-  height: 54px;
+  min-width: 228px;
+  min-height: 54px;
+ 
 }
 
 
@@ -455,8 +460,8 @@ color: #2d3246;
 
 .btn-fifth {
 margin-top: 40px;
-width: 219px;
-height: 54px;
+min-width: 219px;
+min-height: 54px;
 }
 
 /* NINETH SECTION */
@@ -544,8 +549,8 @@ margin-bottom: 38px;
 
 .btn-sixth {
   margin: 62px auto 0px;
-  width: 214px;
-height: 54px;
+  min-width: 214px;
+  min-height: 54px;
 }
 
 
