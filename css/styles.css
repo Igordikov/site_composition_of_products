@@ -39,7 +39,7 @@ img {
   line-height: 1.5;
   background-color: #2d3246;
   color: #fffefb;
-  padding: 16px 48px;
+
   }
 
 .button-yellow {
@@ -52,7 +52,7 @@ img {
   line-height: 1.5;
   background-color:  #fac828;
   color: #2d3246;
-  padding: 16px 46px;
+  
   }
 
 .container {
@@ -253,6 +253,7 @@ header {
   min-width: 312px;
 min-height: 54px;
 margin: 0 auto;
+padding: 16px 46px;
 }
 
 
@@ -304,6 +305,7 @@ margin: 0 auto;
 .btn-third {
   min-width: 253px;
 min-height: 54px;
+padding: 16px 46px;
 }
 
 
@@ -400,7 +402,7 @@ margin-bottom: 40px;
 .btn-fourth {
   min-width: 228px;
   min-height: 54px;
- 
+  padding: 16px 46px;
 }
 
 
@@ -462,6 +464,7 @@ color: #2d3246;
 margin-top: 40px;
 min-width: 219px;
 min-height: 54px;
+padding: 16px 46px;
 }
 
 /* NINETH SECTION */
@@ -551,6 +554,7 @@ margin-bottom: 38px;
   margin: 62px auto 0px;
   min-width: 214px;
   min-height: 54px;
+  padding: 16px 46px;
 }
 
 
